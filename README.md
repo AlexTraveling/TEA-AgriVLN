@@ -26,6 +26,15 @@ To address this issue, we propose the TEA module, which estimates the traversabi
 
 ![Case](assets/fig_case_study.jpeg)
 
+## Demonstration
+Here we share the video of the demonstration mentioned in our paper.
+
+<p align="center">
+  <img src="./assets/demo.gif" width="100%">
+</p>
+
+> Instruction: *There is a patch of low-lying weeds in your front. Please make your way there and remove the weeds, being careful not to run into the tall crops behind. Just keep running towards the weeds. Stop when the weeds occupy large portion of your view.*
+
 ## Quick Start
 We are packaging the codes of TEA-AgriVLN. 
 <!-- Now, our paper “TEA-AgriVLN: Traversability Estimation Alarm for Agricultural Vision-and-Language Navigation” is under review as a conference submission. After the paper is accepted, we will make  -->
