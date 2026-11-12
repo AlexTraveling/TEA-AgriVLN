@@ -1,0 +1,56 @@
+# TEA-AgriVLN 
+# Config
+
+camera:
+  width: 640
+  height: 360
+
+segmenter:
+  size: 'large'
+  points_per_side: 96
+  pred_iou_thresh: 0.5
+  box_nms_thresh: 0.9
+
+filter:
+  iou_threshold: 0.9
+  threshold_rate: 0.02
+  
+overlay:
+  color: [203, 192, 255]
+
+classifier:
+  # vlm_mode: 'local'
+  vlm_mode: 'api'
+  vlm_local: 'qwen3-vl:8b'
+  vlm_api: 'gpt-4.1-mini'
+  temperature: 0.0001
+  robot_information: 'This is a four-leg robotic dog.'
+
+alarm:
+  top_ratio: 0.32
+  bottom_ratio: 0.4
+  height_ratio: 0.1
+  traversable_threshold: 0.5
+  non_traversable_threshold: 0.1
+
+home_tea:
+  if_filter: True
+  if_overlay: True
+  if_number: True
+  if_classifier: True
+
+subtask_list:
+  # llm_mode: 'local'
+  llm_mode: 'api'
+  llm_local: 'deepseek-r1:32b'
+  llm_api: 'gpt-4.1'
+
+decide:
+  # vlm_mode: 'local'
+  vlm_mode: 'api'
+  vlm_local: 'qwen3-vl:8b'
+  vlm_api: 'gpt-4.1-mini'
+  FPS: 5.0
+  t_b_interval: 2
+  safe_redundancy: 2
+  temperature: 0.0001
