@@ -1,9 +1,11 @@
 <div align="center">
 <h1>TEA-AgriVLN: Traversability Estimation Alarm for Agricultural Vision-and-Language Navigation</h1>
 
-[Xiaobei Zhao](https://orcid.org/0009-0005-3123-5536) · Xingqi Lyu · [Xin Chen](https://faculty.cau.edu.cn/cx/)<sup>✉️</sup> · [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)<sup>✉️</sup>
+[Xiaobei Zhao](https://scholar.google.com/citations?user=RlUYOY8AAAAJ&hl=en) · Xingqi Lyu · Xin Chen<sup>✉️</sup> · Xiang Li<sup>✉️</sup>
+<!-- [Xiaobei Zhao](https://orcid.org/0009-0005-3123-5536) · Xingqi Lyu · [Xin Chen](https://faculty.cau.edu.cn/cx/)<sup>✉️</sup> · [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)<sup>✉️</sup> -->
 
-**[China Agricultural University](https://ciee.cau.edu.cn)**
+**China Agricultural University**
+<!-- **[China Agricultural University](https://ciee.cau.edu.cn)** -->
 
 xiaobeizhao2002@163.com, lxq99725@163.com, chxin@cau.edu.cn, cqlixiang@cau.edu.cn
 
@@ -16,7 +18,7 @@ xiaobeizhao2002@163.com, lxq99725@163.com, chxin@cau.edu.cn, cqlixiang@cau.edu.c
 </div>
 
 ## Updates
-<!-- - [June 8th, 2026] The codes of the IMAC-AgriVLN method are available in this repository. -->
+- [November 12th, 2026] The codes of the TEA-AgriVLN method are available in this repository.
 - [July 30th, 2026] Our paper “TEA-AgriVLN: Traversability Estimation Alarm for Agricultural Vision-and-Language Navigation” is available for reading on [arXiv](https://arxiv.org/abs/2607.28474).
 
 ## Overview
@@ -35,8 +37,8 @@ Here we share the video of the demonstration mentioned in our paper.
 
 > Instruction: *There is a patch of low-lying weeds in your front. Please make your way there and remove the weeds, being careful not to run into the tall crops behind. Just keep running towards the weeds. Stop when the weeds occupy large portion of your view.*
 
-## Quick Start
-We are packaging the codes of TEA-AgriVLN. 
+<!-- ## Quick Start -->
+<!-- We are packaging the codes of TEA-AgriVLN.  -->
 <!-- Now, our paper “TEA-AgriVLN: Traversability Estimation Alarm for Agricultural Vision-and-Language Navigation” is under review as a conference submission. After the paper is accepted, we will make  -->
 <!-- Currently, the paper “IMAC-AgriVLN: Can Agricultural Vision-and-Language Navigation Agents be Aware of Instruction Mistakes?” is under review as a conference submission. After the paper is published, we will make both the A2A-MI benchmark and the IMAC-AgriVLN method available as soon as possible. -->
 
